@@ -168,7 +168,7 @@ bar {
 }
 
 # CTRL + ALT + L for locking workstation
-bindsym Control+Mod1+L exec "i3lock-wrapper"
+bindsym Control+Mod1+L exec "i3lock-wrapper -d"
 
 hide_edge_borders both
 new_window pixel
