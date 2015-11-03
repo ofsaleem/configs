@@ -168,7 +168,7 @@ bar {
 }
 
 # CTRL + ALT + L for locking workstation
-bindsym Control+Mod1+L exec "i3lock -ti ~/Downloads/gredlerj.png"
+bindsym Control+Mod1+L exec "i3lock-wrapper"
 
 hide_edge_borders both
 new_window pixel
@@ -182,3 +182,6 @@ exec sleep 10 && twmnd
 exec sleep 10 && variety
 exec sleep 10 && pnmixer
 exec sleep 10 && steam -silent
+exec compton --backend glx --vsync opengl-swc
+exec comptray
+
