@@ -182,6 +182,6 @@ exec sleep 10 && twmnd
 exec sleep 10 && variety
 exec sleep 10 && pnmixer
 exec sleep 10 && STEAM_FRAME_FORCE_CLOSE=1 steam -silent
-exec compton --backend glx --vsync opengl-swc
+exec compton -b 
 exec comptray
 
