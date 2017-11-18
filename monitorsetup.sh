@@ -11,3 +11,4 @@ xrandr --output DVI-I-1 --mode 1920x1080 --rotate normal --pos 0x500 --output DP
 sleep 30
 nvidia-settings --assign CurrentMetaMode="DVI-I-1: nvidia-auto-select +0+500 {rotation=normal, ForceFullCompositionPipeline = On }, DP-0: nvidia-auto-select +1920+350 { ForceFullCompositionPipeline = On }, HDMI-0: nvidia-auto-select +3840+0 { rotation=left, ForceFullCompositionPipeline = On }"
 
+
